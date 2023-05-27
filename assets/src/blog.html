@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!--==================== UNICONS ====================-->
+        <link
+            rel="stylesheet"
+            href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+        />
+
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="../css/styles.css" />
+
+        <title>Proyecto Final - Web Development</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav_logo">Crisstian</a>
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list grid">
+                        <li class="nav_item">
+                            <a href="../../index.html#home" class="nav_link">
+                                <i class="uil uil-estate nav_icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="../../index.html#about" class="nav_link">
+                                <i class="uil uil-user nav_icon"></i> Acerca de
+                                mi
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="../../index.html#skills" class="nav_link">
+                                <i class="uil uil-file-alt nav_icon"></i>
+                                Habilidades
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a
+                                href="../../index.html#qualification"
+                                class="nav_link"
+                            >
+                                <i class="uil uil-graduation-cap nav_icon"></i>
+                                Estudios
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="../../index.html#contact" class="nav_link">
+                                <i class="uil uil-message nav_icon"></i>
+                                Contactame
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#" class="nav_link">
+                                <i class="uil uil-blogger-alt nav_icon"></i>
+                                Blog
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav_close" id="nav-close"></i>
+                </div>
+                <div class="nav_btns">
+                    <div class="nav_toggle" id="nav-toggle">
+                        <i class="uil uil-bars"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home_container container grid">
+                    <div class="home_content grid">
+                        <div class="home_social">
+                            <a
+                                href="https://www.linkedin.com/"
+                                target="_blank"
+                                class="home_social-icon"
+                            >
+                                <i class="uil uil-linkedin"></i>
+                            </a>
+                            <a
+                                href="https://www.github.com/"
+                                target="_blank"
+                                class="home_social-icon"
+                            >
+                                <i class="uil uil-github"></i>
+                            </a>
+                            <a
+                                href="https://www.twitter.com"
+                                target="_blank"
+                                class="home_social-icon"
+                            >
+                                <i class="uil uil-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="home_img">
+                            <img
+                                src="https://images.pexels.com/photos/1851243/pexels-photo-1851243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                alt=""
+                            />
+                        </div>
+                        <div class="home_data">
+                            <h1 class="home_title home_title_color">
+                                Soy Crisstian
+                            </h1>
+                            <h3 class="home_subtitle">Frontend developer</h3>
+                            <p class="home_description">
+                                Desarrollador con experiencia y conocimiento en
+                                diseño web.
+                            </p>
+                            <a
+                                href="../../index.html#contact"
+                                class="button button--flex"
+                            >
+                                Contáctame!
+                                <i
+                                    class="uil uil-message nav_icon button_icon"
+                                ></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home_scroll">
+                        <a
+                            href="#about"
+                            class="home_scroll-button button--flex"
+                        >
+                            <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+                            <span class="home_scroll-name">Desplazate</span>
+                            <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section_title">Publicaciones</h2>
+                <span class="section_subtitle_post"
+                    >Compartiendo información de interes</span
+                >
+                <div class="post_container container grid" id="post_container">
+                    <!-- <div>
+                        <div class="post_content post_close">
+                            <div class="post_header">
+                                <div>
+                                    <h1 class="post_title">
+                                        1- Introduccion al desarrollo web
+                                    </h1>
+                                    <span class="post_author"
+                                        >Autor: Crisstian Mella</span
+                                    >
+                                    <br />
+                                    <span class="post_date"
+                                        >Fecha: 14-09-2022</span
+                                    >
+                                </div>
+                                <i class="uil uil-angle-down post_arrow"></i>
+                            </div>
+                            <div>
+                                <div class="post_data">
+                                    <p class="post_content">
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Voluptate reiciendis
+                                        incidunt distinctio illo libero
+                                        provident neque unde explicabo
+                                        doloremque ut, officiis eum assumenda
+                                        praesentium, quia odio a atque! Ut,
+                                        mollitia?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer_bg">
+                <div class="footer_container container grid">
+                    <div>
+                        <h1 class="footer_title">Crisstian</h1>
+                        <span class="footer_subtitle">Frontend Developer</span>
+                    </div>
+
+                    <ul class="footer_links">
+                        <li>
+                            <a href="../../index.html#home" class="footer_link"
+                                >Home</a
+                            >
+                        </li>
+                        <li>
+                            <a href="../../index.html#about" class="footer_link"
+                                >Acerca de Mi</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="../../index.html#skills"
+                                class="footer_link"
+                                >Habilidades</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="../../index.html#qualification"
+                                class="footer_link"
+                                >Estudios</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Blog</a>
+                        </li>
+                    </ul>
+                    <div class="footer_social">
+                        <a
+                            href="https://www.linkedin.com/"
+                            target="_blank"
+                            class="footer_socials"
+                        >
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <a
+                            href="https://www.github.com/"
+                            target="_blank"
+                            class="footer_socials"
+                        >
+                            <i class="uil uil-github"></i>
+                        </a>
+                        <a
+                            href="https://www.twitter.com"
+                            target="_blank"
+                            class="footer_socials"
+                        >
+                            <i class="uil uil-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <p class="footer_copy">
+                    &#169; Crisstian Mella. Todos los derechos reservados.
+                </p>
+            </div>
+        </footer>
+
+        <!--==================== MAIN JS ====================-->
+        <script type="module" src="../js/blog.js"></script>
+    </body>
+</html>
